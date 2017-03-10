@@ -1,14 +1,16 @@
 # MODUL_10_Lanjutan
 # Login dulu untuk dapat mengakses frm isian data siswa 
 
-# Jika belum pernah mendaftar / salah username / salah password maka akan muncul seperti dibawah ini silahkan isi username das password lalu tekan button Sign Up / benarkan username dan password
+# Jika belum pernah mendaftar / salah username / salah password maka akan muncul seperti dibawah ini 
+![14](https://cloud.githubusercontent.com/assets/21364340/23797606/44a1d316-05d3-11e7-93ff-9c4f86cab0a5.png)
+# silahkan isi username das password lalu tekan button Sign Up / benarkan username dan password
 ![1](https://cloud.githubusercontent.com/assets/21364340/23796726/17fe9492-05cf-11e7-83da-d1c534f8cf96.png)
 # Kemudian tekan Sign In jika anda telah / sudah pernah Sign Up maka akan muncul tampilan seperti dibawah ini 
 ![2](https://cloud.githubusercontent.com/assets/21364340/23796727/17ff1b2e-05cf-11e7-8aa1-1f7e6b43833a.png)
 # Akan muncu form data siswaanda bisa membuat data, menghapus, mengedit dan mengeprint data
 ![3](https://cloud.githubusercontent.com/assets/21364340/23796728/1805acdc-05cf-11e7-97a3-b413abcc19b8.png)
 # Untuk menambah data silahkan isi data dengan lengkap jika tidak lengkap maka akan tampil notifikasi
-
+![13](https://cloud.githubusercontent.com/assets/21364340/23797605/449f78e6-05d3-11e7-9d53-3abd85f97047.png)
 # Jika lengkap takan SAVE maka akan tampil seperti gambar dibawah ini
 ![4](https://cloud.githubusercontent.com/assets/21364340/23796729/18236bfa-05cf-11e7-8da7-698f43acc86e.png)
 # Setelah tekan ok maka data yang ditambahkan akan tampil di table data
@@ -25,4 +27,6 @@
 ![10](https://cloud.githubusercontent.com/assets/21364340/23796735/184f70ec-05cf-11e7-8783-c0fd936e66c3.png)
 # Untuk mencetak data maka tekan PRINT maka akan muncul seperti dibawah ini dan cetak data sesuai kemauan anda
 ![12](https://cloud.githubusercontent.com/assets/21364340/23796737/187eca2c-05cf-11e7-82f9-ecceaace09ce.png)
+
+
 
