@@ -79,8 +79,12 @@ public class frmMain extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tbData1 = new javax.swing.JTable();
+        jPanel6 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 204, 204));
+        setForeground(new java.awt.Color(51, 255, 0));
+        setResizable(false);
         getContentPane().setLayout(null);
 
         jPanel1.setBackground(new java.awt.Color(255, 0, 0));
@@ -213,6 +217,8 @@ public class frmMain extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(153, 255, 102));
         jPanel5.setLayout(null);
 
+        jButton2.setBackground(new java.awt.Color(51, 255, 204));
+        jButton2.setForeground(new java.awt.Color(153, 153, 0));
         jButton2.setText("SAVE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -222,6 +228,8 @@ public class frmMain extends javax.swing.JFrame {
         jPanel5.add(jButton2);
         jButton2.setBounds(20, 10, 90, 30);
 
+        jButton3.setBackground(new java.awt.Color(51, 255, 204));
+        jButton3.setForeground(new java.awt.Color(153, 153, 0));
         jButton3.setText("DELETE");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -231,6 +239,8 @@ public class frmMain extends javax.swing.JFrame {
         jPanel5.add(jButton3);
         jButton3.setBounds(170, 10, 100, 30);
 
+        jButton4.setBackground(new java.awt.Color(51, 255, 204));
+        jButton4.setForeground(new java.awt.Color(153, 153, 0));
         jButton4.setText("CLEAR");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -240,6 +250,8 @@ public class frmMain extends javax.swing.JFrame {
         jPanel5.add(jButton4);
         jButton4.setBounds(330, 10, 100, 30);
 
+        jButton5.setBackground(new java.awt.Color(51, 255, 204));
+        jButton5.setForeground(new java.awt.Color(153, 153, 0));
         jButton5.setText("REFRESH");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -249,6 +261,8 @@ public class frmMain extends javax.swing.JFrame {
         jPanel5.add(jButton5);
         jButton5.setBounds(490, 10, 100, 30);
 
+        jButton6.setBackground(new java.awt.Color(51, 255, 204));
+        jButton6.setForeground(new java.awt.Color(153, 153, 0));
         jButton6.setText("EDIT");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -258,6 +272,8 @@ public class frmMain extends javax.swing.JFrame {
         jPanel5.add(jButton6);
         jButton6.setBounds(640, 10, 80, 30);
 
+        jButton1.setBackground(new java.awt.Color(51, 255, 204));
+        jButton1.setForeground(new java.awt.Color(153, 153, 0));
         jButton1.setText("PRINT");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -273,6 +289,9 @@ public class frmMain extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(153, 255, 153));
         jPanel4.setLayout(null);
 
+        tbData1.setBackground(new java.awt.Color(0, 204, 204));
+        tbData1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 153)));
+        tbData1.setForeground(new java.awt.Color(0, 153, 153));
         tbData1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null},
@@ -315,7 +334,11 @@ public class frmMain extends javax.swing.JFrame {
         getContentPane().add(jPanel4);
         jPanel4.setBounds(280, 150, 880, 550);
 
-        setSize(new java.awt.Dimension(1183, 748));
+        jPanel6.setForeground(new java.awt.Color(51, 255, 51));
+        getContentPane().add(jPanel6);
+        jPanel6.setBounds(-200, -40, 1380, 770);
+
+        setSize(new java.awt.Dimension(1175, 750));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -626,6 +649,7 @@ public class frmMain extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel labeljam;

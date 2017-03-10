@@ -44,6 +44,7 @@ public class Login extends javax.swing.JFrame {
         btnSignIn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(153, 255, 153));
         jPanel1.setLayout(null);
@@ -55,12 +56,20 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setText("PASSWORD");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(80, 130, 207, 32);
+
+        txtNama.setBackground(new java.awt.Color(0, 153, 153));
+        txtNama.setForeground(new java.awt.Color(0, 255, 204));
         jPanel1.add(txtNama);
         txtNama.setBounds(81, 71, 188, 35);
+
+        txtPass.setBackground(new java.awt.Color(0, 153, 153));
+        txtPass.setForeground(new java.awt.Color(0, 255, 204));
         jPanel1.add(txtPass);
         txtPass.setBounds(80, 170, 188, 35);
 
+        btnSignUp.setBackground(new java.awt.Color(0, 102, 102));
         btnSignUp.setFont(new java.awt.Font("Sitka Display", 1, 12)); // NOI18N
+        btnSignUp.setForeground(new java.awt.Color(153, 0, 153));
         btnSignUp.setText("Sign Up");
         btnSignUp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,7 +79,9 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(btnSignUp);
         btnSignUp.setBounds(30, 240, 90, 30);
 
+        btnExit.setBackground(new java.awt.Color(0, 102, 102));
         btnExit.setFont(new java.awt.Font("Sitka Display", 1, 12)); // NOI18N
+        btnExit.setForeground(new java.awt.Color(153, 0, 153));
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,7 +91,9 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(btnExit);
         btnExit.setBounds(130, 240, 70, 30);
 
+        btnSignIn.setBackground(new java.awt.Color(0, 102, 102));
         btnSignIn.setFont(new java.awt.Font("Sitka Display", 1, 12)); // NOI18N
+        btnSignIn.setForeground(new java.awt.Color(153, 0, 153));
         btnSignIn.setText("Sign In");
         btnSignIn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
